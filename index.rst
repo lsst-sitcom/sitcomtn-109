@@ -96,7 +96,17 @@ On the night of 12/22/2023 we analyzed 326 trackings and found instability in th
 
 Examples
 ------------------
+.. figure:: /_static/xPos.png
+   :name: fig-xPos
 
+.. figure:: /_static/xRot.png
+   :name: fig-xRot
+
+.. figure:: /_static/yRot.png
+   :name: fig-yRot
+
+.. figure:: /_static/zRot.png
+   :name: fig-zRot
 
 
 Analysis tracking time
