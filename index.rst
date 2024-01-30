@@ -130,5 +130,8 @@ These values appear because in each night there are 2 or 3 tracking with a durat
 Conclusion
 =============
 
+After analyzing all the two-night tracking we have seen that the mirror remains stable during the entire follow-up in more than 85% of the cases. 
 
-   Stability during integration time
+Only those cases where the RMS is higher than required, this occurs in the first 3 seconds of the tracking. The setteling time during tracking is something that is being analyzed in another ticket.
+
+In addition, we saw that the time duration of the tracking is 42 seconds and not 30 seconds as initially indicated.
