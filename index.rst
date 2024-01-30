@@ -3,11 +3,8 @@ M1M3 - analyze position and rotation stability throughout a tracking period
 ###########################################################################
 .. sectnum::
 
-Laura Toribio San Cipriano
-
-Latest Revision: 2024-01-29
-
 .. note::
+
    **This technote is a work-in-progress.**
 
 Abstract
@@ -111,15 +108,27 @@ Examples
 
 Analysis tracking time
 =====================
+When analyzing all the follow-ups of the two nights, we observed that the duration was not 30 seconds, as expected, but 42 seconds.
+
+Here we include a quick analysis to verify that it really was 42 seconds and whose analysis in detail does not correspond to this ticket.
+
+::
+
+   Number of trackings: 226
+   Mean duration of tracking: 53.15725511998202
+   Median duration of tracking: 42.11979269981384
+   Mode of tracking duration (rounded): 42
+   Standard deviation of tracking duration: 98.32073054731215
+   Variance of tracking duration: 9666.966055357161
+   Maximum duration of tracking: 929.5563025474548
+   Minimum duration of tracking: 0.39732980728149414
+
+::
+
+These values appear because in each night there are 2 or 3 tracking with a duration of less than 2 seconds and about 5 tracking with a longer duration (some up to 15 minutes).
 
 Conclusion
 =============
 
-
-
-See the `Documenteer documentation <https://documenteer.lsst.io/technotes/index.html>`_ for tips on how to write and configure your new technote.
-
-
-.. abstract::
 
    Stability during integration time
