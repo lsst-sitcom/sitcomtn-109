@@ -59,7 +59,7 @@ The RMS was calculated with a rolling of 10 (50 rolling is approximately 1 s of 
 Results
 ---------
 
-.. list-table:: RMS greater than required in the first 3 s
+.. list-table:: # Events with RMS greater than required in the first 3 s
    :widths: 25 25 50
    :header-rows: 1
 
