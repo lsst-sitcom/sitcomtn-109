@@ -20,17 +20,17 @@ Before starting the analysis, we had been told that the duration of the tracking
 The data comes from the EFD: imsData
 
 Description
-==================
+===========
 We have analyzed the vibrations of M1M3 using EFD data for the 6 possible motions (Position: X, Y and Z and Rotation: X, Y, Z) during the tracking period. 
 We have first analyzed each of the motions individually and then we have analyzed them as a whole.
 
 We have analyzed all the tracking for the nights 20-12-2023 and 22-12-2023.
 
 Analysis of M1M3 during tracking
-================
+================================
 
 Requirement verified
--------------------
+--------------------
 ::
 
    req_rms_position = 2e-3 ## mm, tolerance from repeatability requirement for IMS positional
@@ -57,7 +57,7 @@ The RMS was calculated with a rolling of 10 (50 rolling is approximately 1 s of 
 
 
 Results
----------
+-------
 
 .. list-table:: # Events with RMS greater than required in the first 3 s
    :widths: 25 25 50
@@ -107,7 +107,7 @@ Examples
 
 
 Analysis tracking time
-=====================
+=======================
 When analyzing all the follow-ups of the two nights, we observed that the duration was not 30 seconds, as expected, but 42 seconds.
 
 Here we include a quick analysis to verify that it really was 42 seconds and whose analysis in detail does not correspond to this ticket.
