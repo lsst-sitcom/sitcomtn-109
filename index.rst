@@ -28,10 +28,10 @@ We have first analyzed each of the motions individually and then we have analyze
 We have analyzed all the tracking for the nights 20-12-2023 and 22-12-2023.
 
 Analysis of M1M3 during tracking
-================
+================================
 
 Requirement verified
--------------------
+---------------------
 ::
 
    req_rms_position = 2e-3 ## mm, tolerance from repeatability requirement for IMS positional
@@ -108,7 +108,7 @@ Examples
 
 
 Analysis tracking time
-=====================
+=========================
 When analyzing all the follow-ups of the two nights, we observed that the duration was not 30 seconds, as expected, but 42 seconds.
 
 Here we include a quick analysis to verify that it really was 42 seconds and whose analysis in detail does not correspond to this ticket.
