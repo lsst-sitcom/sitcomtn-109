@@ -7,6 +7,7 @@ M1M3 - analyze position and rotation stability throughout a tracking period
 
    **This technote is a work-in-progress.**
 
+
 Abstract
 ========
 This technical note describes the analysis and results of the positional and rotational stability of M1M3 through the tracking periods. The notebook is located within the notebooks_vandv GitHub repository, SITCOM-1136_M1M3_analysis_stability_tracking, and the associated ticket `SITCOM-1136 <https://jira.lsstcorp.org/browse/SITCOM-1136>`_.
