@@ -41,7 +41,10 @@ Requirement verified
 
 Test Data
 ---------
-day Obs = 2023-12-20 and 2023-12-22
+::
+
+    day Obs = 2023-12-20 and 2023-12-22
+
 
 The events have been selected from block 146 in compliance:
 
