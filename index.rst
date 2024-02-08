@@ -27,10 +27,10 @@ We have first analyzed each of the motions individually and then we have analyze
 We have analyzed all the tracking for the nights 20-12-2023 and 22-12-2023.
 
 Analysis of M1M3 during tracking
-================
+=================================
 
 Requirement verified
--------------------
+---------------------
 ::
 
    req_rms_position = 2e-3 ## mm, tolerance from repeatability requirement for IMS positional
@@ -39,7 +39,7 @@ Requirement verified
 ::
 
 Test Data
----------
+----------
 day Obs = 2023-12-20 and 2023-12-22
 
 The events have been selected from block 146 in compliance:
@@ -59,8 +59,8 @@ The RMS was calculated with a rolling of 10 (50 rolling is approximately 1 s of 
 Results
 ---------
 
-.. list-table:: # Events with RMS greater than required in the first 3 s
-   :widths: 25 25 50
+.. list-table:: Events with RMS greater than required in the first 3 s
+   :widths: 25 25 25
    :header-rows: 1
 
    * - Column
@@ -107,7 +107,7 @@ Examples
 
 
 Analysis tracking time
-=====================
+=======================
 When analyzing all the follow-ups of the two nights, we observed that the duration was not 30 seconds, as expected, but 42 seconds.
 
 Here we include a quick analysis to verify that it really was 42 seconds and whose analysis in detail does not correspond to this ticket.
