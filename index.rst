@@ -60,8 +60,8 @@ The RMS was calculated with a rolling of 10 (50 rolling is approximately 1 s of 
 Results
 ---------
 
-.. list-table:: # Events with RMS greater than required in the first 3 s
-   :widths: 25 25 50
+.. list-table:: Events with RMS greater than required in the first 3 s
+   :widths: 25 25 25
    :header-rows: 1
 
    * - Column
@@ -88,6 +88,8 @@ Results
    * - All
      - 34
      - 37
+
+
 
 On the night of 12/20/2023 we analyzed 226 trackings and found instability in the first 3 seconds in 34 of them, i.e. 15%.
 On the night of 12/22/2023 we analyzed 326 trackings and found instability in the first 3 seconds in 37 of them, i.e. 11%.
