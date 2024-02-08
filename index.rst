@@ -43,17 +43,18 @@ Test Data
 ---------
 ::
 
-    day Obs = 2023-12-20 and 2023-12-22
+   day Obs = 2023-12-20
+   day Obs = 2023-12-22
 
 
 The events have been selected from block 146 in compliance:
 
 ::
 
-   type == TMAState.TRACKING
-   endReason == TMAState.SLEWING
+   - type == TMAState.TRACKING
+   - endReason == TMAState.SLEWING
 
-::
+
 
 We have eliminated from the analysis those tracking whose time was less than 2 seconds. These trackings are considered errors and tests and in any case there were no more than 3 cases per night.
 
