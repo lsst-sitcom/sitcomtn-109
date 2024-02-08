@@ -9,7 +9,7 @@ M1M3 - analyze position and rotation stability throughout a tracking period
 
 
 Abstract
-========
+==========
 This technical note describes the analysis and results of the positional and rotational stability of M1M3 through the tracking periods. The notebook is located within the notebooks_vandv GitHub repository, SITCOM-1136_M1M3_analysis_stability_tracking, and the associated ticket `SITCOM-1136 <https://jira.lsstcorp.org/browse/SITCOM-1136>`_.
 
 We analyze displacements of M1M3 for X, Y, Z, RX, RY, and RZ during the period between slews while tracking (innitially we have been told that the tracking period is 30 s) and check if they comply with the 2 micron and 2e-5 degree requirement.
@@ -28,19 +28,19 @@ We have first analyzed each of the motions individually and then we have analyze
 We have analyzed all the tracking for the nights 20-12-2023 and 22-12-2023.
 
 Analysis of M1M3 during tracking
-================================
+==================================
 
 Requirement verified
----------------------
+-----------------------
 ::
 
    req_rms_position = 2e-3 ## mm, tolerance from repeatability requirement for IMS positional
    req_rms_rotation = 2e-5 ## degrees, tolerance from repeatability requirement for IMS rotational
 
-::
+
 
 Test Data
----------
+-----------
 ::
 
    day Obs = 2023-12-20
@@ -130,7 +130,7 @@ Here we include a quick analysis to verify that it really was 42 seconds and who
    Maximum duration of tracking: 929.5563025474548
    Minimum duration of tracking: 0.39732980728149414
 
-::
+
 
 These values appear because in each night there are 2 or 3 tracking with a duration of less than 2 seconds and about 5 tracking with a longer duration (some up to 15 minutes).
 
