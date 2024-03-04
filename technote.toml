@@ -13,11 +13,11 @@ license.id = "CC-BY-4.0"
 state = "draft"
 
 [[technote.authors]]
-name.given = "Bruno C."
-name.family = "Quint"
+name.given = "Laura"
+name.family = "Toribio San Cipriano"
 internal_id = "quintb"
-orcid = "https://orcid.org/0000-0002-1557-3560"
+orcid = "https://orcid.org/0000-0002-8313-7875"
 [[technote.authors.affiliations]]
-name = "Rubin Observatory Project Office"
+name = "CIEMAT"
 internal_id = "RubinObs"
-address = "950 N. Cherry Ave., Tucson, AZ  85719, USA"
+address = " Av. Complutense, 40, 28040 Madrid"

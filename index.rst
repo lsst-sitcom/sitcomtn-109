@@ -7,8 +7,9 @@ M1M3 - analyze position and rotation stability throughout a tracking period
 
    **This technote is a work-in-progress.**
 
+
 Abstract
-========
+==========
 This technical note describes the analysis and results of the positional and rotational stability of M1M3 through the tracking periods. The notebook is located within the notebooks_vandv GitHub repository, SITCOM-1136_M1M3_analysis_stability_tracking, and the associated ticket `SITCOM-1136 <https://jira.lsstcorp.org/browse/SITCOM-1136>`_.
 
 We analyzed displacements of M1M3 for X, Y, Z, RX, RY, and RZ during the period between slews while tracking (innitially we have been told that the tracking period is 30 s) and check if they comply with the 2 micron and 2e-5 degree `requirement <https://docushare.lsst.org/docushare/dsweb/Get/LTS-88/LTS-88.pdf>`_.
@@ -28,29 +29,35 @@ We have first analyzed each of the motions individually (xPosition, yPosition, z
 We have analyzed all the tracking for the nights 20-12-2023 and 22-12-2023.
 
 Analysis of M1M3 during tracking
-=================================
+==================================
 
 Requirement verified
----------------------
+-----------------------
+
 ::
 
    req_rms_position = 2e-3 ## mm, tolerance from repeatability requirement for IMS positional
    req_rms_rotation = 2e-5 ## degrees, tolerance from repeatability requirement for IMS rotational
 
-::
+
 
 Test Data
-----------
-day Obs = 2023-12-20 and 2023-12-22
+
+-----------
+::
+
+   day Obs = 2023-12-20
+   day Obs = 2023-12-22
+
 
 The events have been selected from block 146 in compliance:
 
 ::
 
-   type == TMAState.TRACKING
-   endReason == TMAState.SLEWING
+   - type == TMAState.TRACKING
+   - endReason == TMAState.SLEWING
 
-::
+
 
 We have eliminated from the analysis those tracking whose time was less than 2 seconds. These trackings are considered errors. In any case, there were no more than three cases per night.
 
@@ -110,7 +117,9 @@ Examples
 
 
 Analysis tracking time
-=======================
+=========================
+
+
 When analyzing all the follow-ups of the two nights, we observed that the duration was not 30 seconds, as expected, but 42 seconds.
 
 Here we include a quick analysis to verify that it really was 42 seconds and whose analysis in detail does not correspond to this ticket.
@@ -126,7 +135,6 @@ Here we include a quick analysis to verify that it really was 42 seconds and who
    Maximum duration of tracking: 929.556
    Minimum duration of tracking: 0.397
 
-::
 
 These values appear because in each night there are 2 or 3 tracking with a duration of less than 2 seconds and about 5 tracking with a longer duration (some up to 15 minutes).
 
