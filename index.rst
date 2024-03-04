@@ -33,6 +33,7 @@ Analysis of M1M3 during tracking
 
 Requirement verified
 -----------------------
+
 ::
 
    req_rms_position = 2e-3 ## mm, tolerance from repeatability requirement for IMS positional
@@ -41,6 +42,7 @@ Requirement verified
 
 
 Test Data
+
 -----------
 ::
 
@@ -116,6 +118,8 @@ Examples
 
 Analysis tracking time
 =========================
+
+
 When analyzing all the follow-ups of the two nights, we observed that the duration was not 30 seconds, as expected, but 42 seconds.
 
 Here we include a quick analysis to verify that it really was 42 seconds and whose analysis in detail does not correspond to this ticket.
